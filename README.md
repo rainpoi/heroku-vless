@@ -23,7 +23,7 @@ TLS: tls
 ## 流量中转
 
 可以使用cloudflare的workers来`中转流量`，配置为：  https://dash.cloudflare.com/login
-
+``
 addEventListener(  
     "fetch",event => {  
         let url=new URL(event.request.url);  
@@ -34,3 +34,7 @@ addEventListener(
         )  
     }  
 )
+``
+
+
+
