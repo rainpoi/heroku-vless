@@ -16,15 +16,14 @@ cat << EOF > /usr/local/etc/v2ray/config.json
 {
     "inbounds": [
         {
-            "port": $PORT,
+            "port": 843,
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
                         "id": "$ID", 
                         "flow": "xtls-rprx-direct",
-                        "level": 0,
-                        "email": "love@v2fly.org"
+                        "level": 0
                     }
                 ],
                 "decryption": "none"
