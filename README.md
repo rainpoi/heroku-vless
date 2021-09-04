@@ -8,12 +8,12 @@
 
 经测试本镜像不会因为大量占用资源而被封号。
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/cyao2q/heroku-vless/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/rainpoi/heroku-vless/tree/main)
 
 ## 注意
 
 Address: yourAppName.herokuapp.com   
-Port: 443   
+Port: 843   
 id: Your entered id   
 Flow: xtls-rprx-direct   
 encryption: none   
